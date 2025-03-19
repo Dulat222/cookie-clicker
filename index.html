@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+
+		body{
+			margin: 0;
+			background: #85522d;
+		}
+		.clicker{
+			height: 300px;
+			width: 300px;
+			background: url(cookie.png);
+			background-size: 100% 100%;
+			position: absolute;
+			top: 300px;
+			left: 810px;
+		}
+		.main{
+			height: 910px; 
+			background: #85522d;
+			display: flex;
+		}
+			.money{
+			position: absolute;
+			top: 200px;
+			left: 950px;
+		}
+		.shop1{
+			height: 800px;
+			width: 400px;
+			background: #85522d;
+			position: absolute;
+			left: 1500px;
+		}
+		.shop2{
+			height: 800px;
+			width: 400px;
+			background: #85522d;
+			position: absolute;
+			left: 10px;
+		}
+		.shopblock{
+			height: 100px;
+			width: 400px;
+			background: #c47033;
+			margin-top: 30px;
+		}
+		.shopbtn1{
+			position: absolute;
+			top: 95px;
+			left: 340px;
+
+		}
+		.shopbtn2{
+			position: absolute;
+			top: 220px;
+			left: 340px;
+
+		}
+		.shopbtn3{
+			position: absolute;
+			top: 350px;
+			left: 340px;
+		}
+		.shopbtn4{
+			position: absolute;
+			top: 480px;
+			left: 340px;
+		}
+		.shopbtn5{
+			position: absolute;
+			top: 610px;
+			left: 340px;
+		}
+		.shopbtn6{
+			position: absolute;
+			top: 740px;
+			left: 340px;
+		}
+		.shop2btn1{
+			position: absolute;
+			top: 95px;
+			left: 340px;
+
+		}
+		.shop2btn2{
+			position: absolute;
+			top: 220px;
+			left: 340px;
+
+		}
+		.shop2btn3{
+			position: absolute;
+			top: 350px;
+			left: 340px;
+		}
+		.shop2btn4{
+			position: absolute;
+			top: 480px;
+			left: 340px;
+		}
+		.shop2btn5{
+			position: absolute;
+			top: 610px;
+			left: 340px;
+		}
+		.shop2btn6{
+			position: absolute;
+			top: 740px;
+			left: 340px;
+		}
+
+
+	</style>
+</head>
+<body>
+<div class="main">
+	<h1 class="money">0</h1>
+	<div class="clicker"></div>
+	<h2 style="position: absolute; left: 900px;">Печенье в секунду: <span class="ClickPerSecond">0</span></h2>
+	<h2 style="position: absolute; left: 900px; top: 40px;">Печенье при клике: <span class="ClickPerClick">1</span></h2> 
+	<div class="shop1">
+		<div class="shopblock">
+			<h1>+1 <img src="cookie.png" style="background-size: 100% 100%; height: 40px; width: 40px; "> при клике</h1>
+			<h3 style="position: absolute; left: 245px; top: 75px;">Цена: 250</h3>
+			<button class="shop2btn1">Купить</button>
+		</div>
+		<div class="shopblock">
+			<h1>+5 <img src="cookie.png" style="background-size: 100% 100%; height: 40px; width: 40px; "> при клике</h1>
+			<h3 style="position: absolute; left: 245px; top: 200px;">Цена: 1250</h3>
+			<button class="shop2btn2">Купить</button>
+		</div>
+		<div class="shopblock">
+			<h1>+10 <img src="cookie.png" style="background-size: 100% 100%; height: 40px; width: 40px; "> при клике</h1>
+			<h3 style="position: absolute; left: 245px; top: 330px;">Цена: 2500</h3>
+			<button class="shop2btn3">Купить</button>
+		</div>
+		<div class="shopblock">
+			<h1>+50 <img src="cookie.png" style="background-size: 100% 100%; height: 40px; width: 40px; "> при клике</h1>
+			<h3 style="position: absolute; left: 235px; top: 460px;">Цена: 12500</h3>
+			<button class="shop2btn4">Купить</button>
+		</div>
+		<div class="shopblock">
+			<h1>+100 <img src="cookie.png" style="background-size: 100% 100%; height: 40px; width: 40px; "> при клике</h1>
+			<h3 style="position: absolute; left: 235px; top: 590px;">Цена: 25000</h3>
+			<button class="shop2btn5">Купить</button>
+		</div>
+		<div class="shopblock">
+			<h1>+500 <img src="cookie.png" style="background-size: 100% 100%; height: 40px; width: 40px; "> при клике</h1>
+			<h3 style="position: absolute; left: 225px; top: 720px;">Цена: 125000</h3>
+			<button class="shop2btn6">Купить</button>
+		</div>
+	</div>
+
+	<div class="shop2">
+		<div class="shopblock">
+			<h1>+1 <img src="cookie.png" style="background-size: 100% 100%; height: 40px; width: 40px; "> в сек</h1>
+			<h3 style="position: absolute; left: 250px; top: 75px;">Цена: 100</h3>
+			<button class="shopbtn1">Купить</button>
+		</div>
+		<div class="shopblock">
+			<h1 class="t">+5 <img src="cookie.png" style="background-size: 100% 100%; height: 40px; width: 40px;"> в сек</h1>
+			<h3 style="position: absolute; left: 250px; top: 200px;">Цена: 500</h3>
+			<button class="shopbtn2">Купить</button>
+		</div>
+		<div class="shopblock">
+			<h1 class="t">+10 <img src="cookie.png" style="background-size: 100% 100%; height: 40px; width: 40px;"> в сек</h1>
+			<h3 style="position: absolute; left: 245px; top: 330px;">Цена: 1000</h3>
+			<button class="shopbtn3">Купить</button>
+		</div>
+		<div class="shopblock">
+			<h1 class="t">+50 <img src="cookie.png" style="background-size: 100% 100%; height: 40px; width: 40px;"> в сек</h1>
+			<h3 style="position: absolute; left: 245px; top: 460px;">Цена: 5000</h3>
+			<button class="shopbtn4">Купить</button>
+		</div>
+		<div class="shopblock">
+			<h1 class="t">+100 <img src="cookie.png" style="background-size: 100% 100%; height: 40px; width: 40px;"> в сек</h1>
+			<h3 style="position: absolute; left: 235px; top: 590px;">Цена: 10000</h3>
+			<button class="shopbtn5">Купить</button>
+		</div>
+		<div class="shopblock">
+			<h1 class="t">+500 <img src="cookie.png" style="background-size: 100% 100%; height: 40px; width: 40px;"> в сек</h1>
+			<h3 style="position: absolute; left: 235px; top: 720px;">Цена: 50000</h3>
+			<button class="shopbtn6">Купить</button>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<script type="text/javascript">
+	let clicker = document.querySelector(".clicker")
+	let score = 0
+	let money = document.querySelector(".money")
+	let shopbtn1 = document.querySelector(".shopbtn1")
+	let shopbtn2 = document.querySelector(".shopbtn2")
+	let shopbtn3 = document.querySelector(".shopbtn3")
+	let shopbtn4 = document.querySelector(".shopbtn4")
+	let shopbtn5 = document.querySelector(".shopbtn5")
+	let shopbtn6 = document.querySelector(".shopbtn6")
+	let shop2btn1 = document.querySelector(".shop2btn1")
+	let shop2btn2 = document.querySelector(".shop2btn2")
+	let shop2btn3 = document.querySelector(".shop2btn3")
+	let shop2btn4 = document.querySelector(".shop2btn4")
+	let shop2btn5 = document.querySelector(".shop2btn5")
+	let shop2btn6 = document.querySelector(".shop2btn6")
+	let ClickPerClick = 1
+	let ClickPerSecond = 0
+	
+
+	clicker.onclick = function(){ 
+		score = score + ClickPerClick
+		money.innerHTML = score
+	}
+
+	let plusclick = function(){
+		score = score + ClickPerSecond
+		money.innerHTML = score
+	}
+
+	shopbtn1.onclick = function(){
+		if(score < 100){
+			alert("Недостаточно печенек")
+		}
+		if(score >= 100){
+			score = score - 100
+			money.innerHTML = score
+			ClickPerSecond = ClickPerSecond + 1
+			document.querySelector(".ClickPerSecond").innerHTML = ClickPerSecond
+		}
+	}
+
+	shopbtn2.onclick = function(){
+		if(score < 500){
+			alert("Недостаточно печенек")
+		}
+		if(score >= 500){
+			score = score - 500
+			money.innerHTML = score
+			ClickPerSecond = ClickPerSecond + 5
+			document.querySelector(".ClickPerSecond").innerHTML = ClickPerSecond
+		}
+		
+	}
+	
+	shopbtn3.onclick = function(){
+		if(score < 1000){
+			alert("Недостаточно печенек")
+		}
+		if(score >= 1000){
+			score = score - 1000
+			money.innerHTML = score
+			ClickPerSecond = ClickPerSecond + 10
+			document.querySelector(".ClickPerSecond").innerHTML = ClickPerSecond
+		}
+		
+	}
+
+	shopbtn4.onclick = function(){
+		if(score < 5000){
+			alert("Недостаточно печенек")
+		}
+		if(score >= 5000){
+			score = score - 5000
+			money.innerHTML = score
+			ClickPerSecond = ClickPerSecond + 50
+			document.querySelector(".ClickPerSecond").innerHTML = ClickPerSecond
+		}
+		
+	}
+
+	shopbtn5.onclick = function(){
+		if(score < 10000){
+			alert("Недостаточно печенек")
+		}
+		if(score >= 10000){
+			score = score - 10000
+			money.innerHTML = score
+			ClickPerSecond = ClickPerSecond + 100
+			document.querySelector(".ClickPerSecond").innerHTML = ClickPerSecond
+		}
+		
+	}
+
+	shopbtn6.onclick = function(){
+		if(score < 50000){
+			alert("Недостаточно печенек")
+		}
+		if(score >= 50000){
+			score = score - 50000
+			money.innerHTML = score
+			ClickPerSecond = ClickPerSecond + 500
+			document.querySelector(".ClickPerSecond").innerHTML = ClickPerSecond
+		}
+		
+	}
+	
+	setInterval(plusclick, 1000)
+
+	shop2btn1.onclick = function(){
+		if(score < 250){
+			alert("Недостаточно печенек")
+		}
+		if(score >= 250){
+			score = score - 250
+			money.innerHTML = score
+			ClickPerClick = ClickPerClick + 1
+			document.querySelector(".ClickPerClick").innerHTML = ClickPerClick
+		}
+		
+	}
+
+	shop2btn2.onclick = function(){
+		if(score < 1250){
+			alert("Недостаточно печенек")
+		}
+		if(score >= 1250){
+			score = score - 1250
+			money.innerHTML = score
+			ClickPerClick = ClickPerClick + 5
+			document.querySelector(".ClickPerClick").innerHTML = ClickPerClick
+		}
+		
+	}
+	
+	shop2btn3.onclick = function(){
+		if(score < 2500){
+			alert("Недостаточно печенек")
+		}
+		if(score >= 2500){
+			score = score - 2500
+			money.innerHTML = score
+			ClickPerClick = ClickPerClick + 10
+			document.querySelector(".ClickPerClick").innerHTML = ClickPerClick
+		}
+		
+	}
+
+	shop2btn4.onclick = function(){
+		if(score < 12500){
+			alert("Недостаточно печенек")
+		}
+		if(score >= 12500){
+			score = score - 12500
+			money.innerHTML = score
+			ClickPerClick = ClickPerClick + 50
+			document.querySelector(".ClickPerClick").innerHTML = ClickPerClick
+		}
+		
+	}
+
+	shop2btn5.onclick = function(){
+		if(score < 25000){
+			alert("Недостаточно печенек")
+		}
+		if(score >= 25000){
+			score = score - 25000
+			money.innerHTML = score
+			ClickPerClick = ClickPerClick + 100
+			document.querySelector(".ClickPerClick").innerHTML = ClickPerClick
+		}
+		
+	}
+
+	shop2btn6.onclick = function(){
+		if(score < 125000){
+			alert("Недостаточно печенек")
+		}
+		if(score >= 125000){
+			score = score - 125000
+			money.innerHTML = score
+			ClickPerClick = ClickPerClick + 500
+			document.querySelector(".ClickPerClick").innerHTML = ClickPerClick
+		}
+		
+	}
+</script>
+</body>
+</html>
